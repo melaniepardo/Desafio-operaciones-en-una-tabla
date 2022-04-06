@@ -6,7 +6,7 @@ Desafio desarrollado por un grupo de estudiantes dentro del Bootcamp Fullstack J
 ### Contenidos aplicados
 - Tipos de datos
 - Clave primaria y foránea
-- Creación, inserción, modificacón y eliminaciones en la tabla
+- Creación, inserción, modificación y eliminaciones en la tabla
 
 #### Paso a paso
 -  Se crea una base de datos con el comando `CREATE DATABASE` llamada posts_db y luego dos tablas con `CREATE TABLE` (post y comentarios). Las inserciones de informacion a la tabla se realizan con `INSERT INTO`.
