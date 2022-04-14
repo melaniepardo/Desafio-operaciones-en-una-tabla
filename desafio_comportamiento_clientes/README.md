@@ -6,21 +6,20 @@ Desafio desarrollado por un grupo de estudiantes dentro del Bootcamp Fullstack J
 - Transacciones
 
 #### Paso a paso
--  Se crea una base de datos con el comando `CREATE DATABASE` llamada posts_db y luego dos tablas con `CREATE TABLE` (post y comentarios). Las inserciones de informacion a la tabla se realizan con `INSERT INTO`.
--  Para modificar las tablas y agregar una columna llamada "titulo", se realiza con `ALTER TABLE`.
--  Para rellenar el contenido de la columna agregada "titulo", se utiliza el comando`UPDATE`.
--  Si se quiere eliminar algo, se realiza en este ejercicio con comando `DELETE FROM` y se trabaja con el id (*No olvidar poner el WHERE).
-
-- Se nos solicita realizar una compra de una cantidad de 5 productos con ID 9, por lo tanto, en la siguiente imagen se muestra la tabla de productos en la que es posible corroborar que en el ID 9 tiene primeramente en stock 8 productos, y luego de la compra en la segunda tabla quedarán 5 productos. 
+1. Se crea una base de datos con el comando `CREATE DATABASE` llamada `unidad2` 
+2. Se nos solicita realizar una compra de una cantidad de 5 productos con ID 9. En la siguiente imagen se muestra la tabla de productos en la que es posible corroborar que en el ID 9 tiene en stock 8 productos, y luego de la compra en la segunda tabla quedarán 5 productos. 
 
 ![Tabla producto](https://i.ibb.co/G7kxQZD/TABLA-punto2.jpg)
 
-- Luego el cliente usuario02 ha realizado la siguiente compra:
+Luego el cliente usuario02 realiza la siguiente compra:
 + producto: producto1, producto 2, producto 8.
 + cantidad: 3 de cada producto.
 + fecha: fecha del sistema.
-- Y se aprecia en la siguiente imagen que 
-![Tabla producto](![Tabla producto](https://i.ibb.co/G7kxQZD/TABLA-punto2.jpg)
+Mediante las transacciones `SAVEPOINTS` y `ROLLBACK TO`, se realizan las consultas correspondientes para este requerimiento para validar que si alguno de los productos se queda sin stock, no se realice la compra. Se aprecia en la siguiente imagen que el producto de ID 8 no tiene stock.
+
+![Tabla producto](https://i.ibb.co/D4XSm2T/punto3.png)
+
+
 ### Instrucciones
 
 - Para ingresar a ver los archivos del proyecto, dirijase a la carpeta desafio_comportamiento_clientes, y luego a desafio_comportamiento_clientes.sql.
