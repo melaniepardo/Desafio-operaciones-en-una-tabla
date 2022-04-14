@@ -1,4 +1,4 @@
-#Desafio entendiendo cómo se comportan nuestros clientes
+# Desafio entendiendo cómo se comportan nuestros clientes
 ### Descripción proyecto
 Desafio desarrollado por un grupo de estudiantes dentro del Bootcamp Fullstack Javascript Trainee al año 2022.
 
@@ -16,11 +16,10 @@ Desafio desarrollado por un grupo de estudiantes dentro del Bootcamp Fullstack J
 ![Tabla producto](https://i.ibb.co/G7kxQZD/TABLA-punto2.jpg)
 
 - Luego el cliente usuario02 ha realizado la siguiente compra:
-● producto: producto1, producto 2, producto 8.
-● cantidad: 3 de cada producto.
-● fecha: fecha del sistema.
-
-
++ producto: producto1, producto 2, producto 8.
++ cantidad: 3 de cada producto.
++ fecha: fecha del sistema.
+- Y se aprecia en la siguiente imagen que 
 ![Tabla producto](![Tabla producto](https://i.ibb.co/G7kxQZD/TABLA-punto2.jpg)
 ### Instrucciones
 
