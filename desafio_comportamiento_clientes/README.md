@@ -11,7 +11,17 @@ Desafio desarrollado por un grupo de estudiantes dentro del Bootcamp Fullstack J
 -  Para rellenar el contenido de la columna agregada "titulo", se utiliza el comando`UPDATE`.
 -  Si se quiere eliminar algo, se realiza en este ejercicio con comando `DELETE FROM` y se trabaja con el id (*No olvidar poner el WHERE).
 
-![Tabla 1](C:\Users\melan\Desktop\sql01\desafio_comportamiento_clientes\TABLA1)
+- Se nos solicita realizar una compra de una cantidad de 5 productos con ID 9, por lo tanto, en la siguiente imagen se muestra la tabla de productos en la que es posible corroborar que en el ID 9 tiene primeramente en stock 8 productos, y luego de la compra en la segunda tabla quedarán 5 productos. 
+
+![Tabla producto](https://i.ibb.co/G7kxQZD/TABLA-punto2.jpg)
+
+- Luego el cliente usuario02 ha realizado la siguiente compra:
+● producto: producto1, producto 2, producto 8.
+● cantidad: 3 de cada producto.
+● fecha: fecha del sistema.
+
+
+![Tabla producto](![Tabla producto](https://i.ibb.co/G7kxQZD/TABLA-punto2.jpg)
 ### Instrucciones
 
 - Para ingresar a ver los archivos del proyecto, dirijase a la carpeta desafio_comportamiento_clientes, y luego a desafio_comportamiento_clientes.sql.
