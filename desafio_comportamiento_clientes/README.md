@@ -11,6 +11,7 @@ Desafio desarrollado por un grupo de estudiantes dentro del Bootcamp Fullstack J
 -  Para rellenar el contenido de la columna agregada "titulo", se utiliza el comando`UPDATE`.
 -  Si se quiere eliminar algo, se realiza en este ejercicio con comando `DELETE FROM` y se trabaja con el id (*No olvidar poner el WHERE).
 
+![Alt text](C:\Users\melan\Desktop\sql01)
 ### Instrucciones
 
 - Para ingresar a ver los archivos del proyecto, dirijase a la carpeta desafio_comportamiento_clientes, y luego a desafio_comportamiento_clientes.sql.
